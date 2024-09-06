@@ -1,0 +1,26 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Practice*/
+
+.vacio1, .vacio2 {
+  height: 800px;
+}
+.contenedor {
+  border: 3px solid black;
+}
+
+.contenedor h2 {
+  text-align: center;
+}
+
+.contenedor > p {
+  color: red;
+}
