@@ -1,26 +1,43 @@
+:root {
+  --color-background: black;
+  --color-font: white;
+}
 * {
-  border: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-nav > ul {
+html {
+  background-color: var(--color-background);
+  color: var(--color-font);
+}
+
+.menu {
   display: flex;
-  justify-content: space-evenly;
+  height: 100vh;
 }
 
-/*Practice*/
-
-.vacio1, .vacio2 {
-  height: 800px;
-}
-.contenedor {
-  border: 3px solid black;
+.option {
+  width: 33.33vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.contenedor h2 {
-  text-align: center;
+.option:hover:first-of-type {
+  background-color: orangered;
 }
 
-.contenedor > p {
-  color: red;
+.option:last-of-type:hover {
+  background-color: yellow;
+}
+
+.option:hover:nth-of-type(2) {
+  background-color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-font);
+  font-size: 4vw;
 }

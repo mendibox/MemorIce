@@ -1,0 +1,89 @@
+:root {
+  --color-background-first: #1b1b32;
+  --color-background-second: #7a1cac;
+  --color-background-third: #ad49e1;
+  --color-background-fourth: #ebd3f8;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  background-color: var(--color-background-first);
+  color: white;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: white;
+}
+
+/*Top main menu*/
+
+.menu {
+  background-color: var(--color-background-second);
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+}
+
+.option {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.option:hover {
+  background-color: var(--color-background-first);
+  border-bottom: 3px solid var(--color-background-third);
+}
+
+.option a {
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Main content*/
+
+main {
+  background-color: red;
+  width: 70%;
+  margin: 0rem auto;
+  padding: 5rem 2rem 1rem;
+}
+
+/*End of component*/
+
+#align-items {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.container {
+  width: 100%;
+  height: 450px;
+  background-color: #ad49e1;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.item {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  
+}
