@@ -74,6 +74,9 @@ main {
 .container {
   height: 450px;
   background-color: #ad49e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item {
@@ -114,9 +117,16 @@ main {
 }
 
 .border{
+  width: 200px;
+  height: 200px;
   border-width: 10px;
   border-radius: 20px;
   border-style: solid;
   margin-bottom: 10px;
   border-color: rgb(124, 12, 77);
+}
+
+.position {
+  position: absolute;
+  top: 3px;
 }
